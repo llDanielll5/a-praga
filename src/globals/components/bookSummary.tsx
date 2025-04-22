@@ -104,7 +104,7 @@ const BookSummarySection = () => {
             component={motion.a}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            href="#comprar"
+            href="https://www.amazon.com.br/Praga-Livro-In%C3%ADcio-Fim-ebook/dp/B0CXB8XMVL?dplnkId=17d4227c-087c-4973-b515-b09c8ddc3b66"
             variant="contained"
             sx={{
               mt: 4,

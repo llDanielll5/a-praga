@@ -1,6 +1,5 @@
-import { Box, Typography, Grid, Card, CardContent } from "@mui/material";
+import { Box, Typography, Grid, Card } from "@mui/material";
 import { motion } from "framer-motion";
-import Image from "next/image";
 
 const books = [
   {
