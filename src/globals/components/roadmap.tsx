@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const books = [
   {
-    title: "Livro I: O Começo do Fim",
+    title: "Livro I: O Início do Fim",
     description:
       "Leonel chega a Lucca e se vê preso durante o avanço da peste negra, sem saber o que está por vir...",
     step: "01",
@@ -28,7 +28,7 @@ export default function RoadmapSection() {
         py: 10,
         backgroundColor: "#000",
         backgroundImage:
-          "radial-gradient(ellipse at top, rgba(255, 106, 0, 0.1) 0%, transparent 70%), url(/images/bg-eliza.png)",
+          "radial-gradient(ellipse at top, rgba(255, 106, 0, 0.1) 0%, transparent 70%)",
         overflow: "hidden",
       }}
     >

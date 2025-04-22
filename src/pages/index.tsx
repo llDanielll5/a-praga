@@ -1,3 +1,4 @@
+import AboutUsSection from "@/globals/components/about";
 import BookSummarySection from "@/globals/components/bookSummary";
 import DestakSection from "@/globals/components/destak";
 import Footer from "@/globals/components/footer";
@@ -10,6 +11,7 @@ const Home = () => {
     <Box width={"100%"}>
       <HeroSection />
       <BookSummarySection />
+      <AboutUsSection />
       <DestakSection />
       <BookRoadmap />
       <Footer />

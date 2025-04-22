@@ -1,12 +1,12 @@
 import { Box, Typography, Stack, useTheme } from "@mui/material";
 import { motion } from "framer-motion";
-import Image from "next/image";
-import RocketLaunchIcon from "@mui/icons-material/RocketLaunch";
-import FavoriteIcon from "@mui/icons-material/Favorite";
+import InstagramIcon from "@mui/icons-material/Instagram";
 import { styled } from "@mui/system";
+import { useRouter } from "next/router";
 
 const HeroCapturaPage = () => {
   const theme = useTheme();
+  const router = useRouter();
 
   return (
     <Box
@@ -107,6 +107,7 @@ const HeroCapturaPage = () => {
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 1.3, duration: 0.6 }}
+            onClick={() => router.push("https://instagram.com/apragalivro")}
             sx={{
               position: "absolute",
               top: "20%",
@@ -116,9 +117,11 @@ const HeroCapturaPage = () => {
               borderRadius: 2,
               p: 1,
               color: "#ff6a00",
+              zIndex: 100,
+              cursor: "pointer",
             }}
           >
-            <FavoriteIcon fontSize="large" />
+            <InstagramIcon fontSize="large" sx={{ justifySelf: "center" }} />
           </Box>
 
           {/* Indicador gráfico animado */}
