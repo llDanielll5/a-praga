@@ -51,5 +51,5 @@ export default function AboutUsSection() {
 }
 
 const StyledImage = styled("img")`
-  width: 100%;
+  width: 80%;
 `;
