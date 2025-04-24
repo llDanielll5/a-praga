@@ -43,7 +43,7 @@ export default function AboutUsSection() {
           criatividade, Wellington é autor do livro A Praga - O Início do Fim.
           Essa obra independente, disponível na versão eletrônica pela Amazon,
           explora os universos da ficção, fantasia e terror, cativando leitores
-          com uma narrativa envolvente e imaginativa.
+          com uma narrativa envolvente e imaginativa.
         </Typography>
       </Box>
     </Box>

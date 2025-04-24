@@ -5,7 +5,7 @@ const books = [
   {
     title: "Livro I: O Início do Fim",
     description:
-      "Leonel chega a Lucca e se vê preso durante o avanço da peste negra, sem saber o que está por vir...",
+      "Leonel chega a Lucca e se vê preso durante o avanço da Praga, sem saber o que está por vir...",
     step: "01",
   },
   {
